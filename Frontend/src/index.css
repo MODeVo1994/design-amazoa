@@ -1,0 +1,37 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ }
+
+.parent{
+  display: flex;
+  background-color: aqua;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1300px;
+  background-repeat: repeat;
+  height: 100vh;
+
+ }
+.header_div{
+   max-width: inherit;
+  margin: 0;
+  position: static;
+  top: 0;
+   height: 60px;
+   background-color: rgb(211, 211, 224);
+
+}
+.products{
+  padding-top: 60px;
+}
+.loading_parent{
+  display: flex;
+  flex-direction: column;
+ margin-left: 50%;
+margin-top: 25%; }
+.footer{
+  text-align: center;
+}
