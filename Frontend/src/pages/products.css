@@ -1,0 +1,14 @@
+.products_cntrn{
+background-color: blue;
+max-width: 1200px;
+display:flex ;
+margin: 0 auto;
+justify-content: center;
+flex-wrap: wrap;
+gap: 5px;
+
+
+}
+.our_products{
+    text-align: center;
+}

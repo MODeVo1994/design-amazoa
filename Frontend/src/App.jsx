@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import { Loading } from "./components/Loading"
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Products from "./pages/Products"
+import ProductDetails from "./pages/ProductDetails"
 
  
  
@@ -15,7 +16,7 @@ function App() {
       <div className="header_div">
        <Header/>
       <div className="products">
-        products here
+         
  
 
 
@@ -36,7 +37,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Products/>} />
-        <Route path="/product/slug" element={<Products/>} />
+        <Route path="/product/:slug" element={<ProductDetails/>} />
         <Route path="/product/:id" element={<Products/>} />
       </Routes>
       
